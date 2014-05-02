@@ -96,6 +96,7 @@ class State(object):
 
             state = State('SP')
             state.code()
+            >>> 35
         """
         return self.codes_dict().get(self.uf)
 
